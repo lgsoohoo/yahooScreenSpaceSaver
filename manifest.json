@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Yahoo Screen Space Saver",
-  "version": "0.1",
+  "version": "0.2",
 
-  "description": "Removes ads on Yahoo Mail and  frees some space for smaller screens",
+  "description": "Removes ads on Yahoo Mail and frees some space for smaller screens",
 
   "icons": {
     "48": "icon.png"
