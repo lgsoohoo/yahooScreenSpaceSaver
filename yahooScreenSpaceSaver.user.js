@@ -23,16 +23,10 @@ addCss("#ybar {height: 75px !important}"); // Shorten the invisible element that
 addCss("#card_group_container {display: none !important}");
 
 // === Remove Right Sidebar Ads ===
-addCss(".D_F.o_v.p_R.I_ZnwrMC {display: none !important}");
+addCss(".D_F.o_v {display: none !important}");
 	// TODO: The Contacts/Calendar/Help/Settings buttons are missing
 
 // === Hide Ads in the inbox between emails ===
 addCss("#Atom .D_ZKxLmw {display: none !important}");
 // TODO: May cause firefox warning: "cannot load stylesheet"
 // TODO: Leaves an empty space for the ad because of hard-coded in-line styling "top: ##px"
-	/* Using JS (May not work properly if JS is run before HTML elements are generated)
-	*	let inboxAdList = document.querySelectorAll('[data-test-id^="pencil-ad-messageList"]');
-	*	inboxAdList.forEach(
-	*			(adRow) => adRow.parentNode.parentNode.style.display="none"
-	*	);
-	*/
