@@ -14,16 +14,16 @@ function addCss(cssCode){
 }
 
 // === Shorten the header at the top ===
-addCss("._yb_m085o {display: none !important}"); // Remove Gray Header
+addCss("#ybar-inner-wrap > div:first-of-type {display: none !important}"); // Remove Gray Header
 // Shorten the height of the purple header
-addCss(".H_3n1j3 {height: 75px !important}");	// Purple background
+addCss("#app > section > div {height: 75px !important}");	// Purple background
 addCss("#ybar {height: 75px !important}"); // Shorten the invisible element that covers up the UI buttons (Archive/Move/Delete/Spam)
 
 // === Remove top banner Ad when viewing a message ===
 addCss("#card_group_container {display: none !important}");
 
 // === Remove Right Sidebar Ads ===
-addCss(".D_F.o_v {display: none !important}");
+addCss("#mail-app-component-container > div:nth-of-type(2) {display: none !important}");
 	// TODO: The Contacts/Calendar/Help/Settings buttons are missing
 
 // === Hide Ads in the inbox between emails ===
