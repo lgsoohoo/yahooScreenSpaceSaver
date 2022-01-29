@@ -1,8 +1,8 @@
 # Yahoo Screen Space Saver
 
-[Mozilla Add-ons Link](https://addons.mozilla.org/en-US/firefox/addon/yahoo-screen-space-saver/)
-
 Removes ads on Yahoo Mail and frees some space for smaller screens.
+
+Find 'Yahoo Screen Space Saver' on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/yahoo-screen-space-saver/)!
 
 ## Description
 
@@ -13,7 +13,7 @@ Ads hidden:
 - Top Banner Ad (when viewing an email)
 - Ads between emails* (when viewing inbox)
 
-*Yahoo makes it difficult to remove the gap for the ad, but the ad text is not shown
+\* Yahoo makes it difficult to remove the gap for the ad, but the ad text is not shown
 
 Space freed:
 - Top gray header hidden (Home/Mail/News/Finance)
@@ -23,7 +23,7 @@ Space freed:
 
 ## Technical Details
 
-The add-on asks for permission to `Access your data for sites in the mail.yahoo.com domain` and `Access your data for mail.yahoo.com`, but this add-on does not read any of your emails, it only hides (does not display) the advertisements.
+The add-on asks for permission to `Access your data for sites in the mail.yahoo.com domain` and `Access your data for mail.yahoo.com`, but this add-on does not read any of your emails - it only hides (does not display) the advertisements.
 
 The source code for this add-on can be found on [GitHub](https://github.com/lgsoohoo/yahooScreenSpaceSaver).
 
