@@ -17,9 +17,7 @@ Ads hidden:
 
 Space freed:
 - Top gray header hidden (Home/Mail/News/Finance)
-- Right toolbar hidden** (Contacts/Calendar/Notes/Help/Settings)
-
-** If you occasionally need to access these buttons, you can temporarily disable this add-on to find it.
+- Right toolbar hidden
 
 ## Technical Details
 
