@@ -6,7 +6,7 @@
 // Note: In `manifest.json`, be sure to load the other JS files
 // before `main.js`, so that the imported functions actually exist!
 
-// hideWithCss.js
+// hideItemsWithCss.js
 hideUpperGrayBanner();
 hideEmailMessageAds();
 hideInboxBetweenEmailAds();

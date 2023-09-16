@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.mail.yahoo.com/*", "*://mail.yahoo.com/*"],
-      "js": ["hideWithCss.js", "yahooScreenSpaceSaver.user.js", "main.js"]
+      "js": ["hideItemsWithCss.js", "yahooScreenSpaceSaver.user.js", "main.js"]
     }
   ],
 

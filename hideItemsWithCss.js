@@ -21,17 +21,19 @@ function addCss(cssCode) {
  */
 function hideUpperGrayBanner() {
   // Remove Gray Header, but the search bar shifts up and the overall top section still takes up the same height
-  addCss("#ybar-inner-wrap > div:first-of-type {display: none !important}");
+  addCss("#ybar-inner-wrap > div:nth-of-type(2) {display: none !important}");
 
   let searchBarDimensions = document
-    .getElementById("ybar-inner-wrap")
-    .firstElementChild.nextElementSibling.getBoundingClientRect();
+    .getElementById("ybar-search-box-container")
+    .parentNode.parentNode // Wrapping div for the searchBar
+    .getBoundingClientRect();
   let newSearchBarHeight = searchBarDimensions.height + 5;
 
   // Shrink the search bar background
   addCss(`#app > section > div {height: ${newSearchBarHeight}px !important}`);
+
   // Shrink the invisible element that covers up the UI buttons (Archive/Move/Delete/Spam)
-  addCss("#ybar {height: 75px !important}");
+  addCss(`#ybar {height: ${newSearchBarHeight}px !important}`);
 }
 
 /**
