@@ -46,9 +46,9 @@ function hideEmailMessageAds() {
 
 /**
  * Hides ads that appear in the inbox between emails
+ * This leaves an empty space for the ad because of hardcoded in-line styling: "top: ##px"
+ * Not worth the effort to remove the space.
  */
 function hideInboxBetweenEmailAds() {
   addCss("#Atom .D_ZKxLmw {display: none !important}");
-  // TODO: May cause firefox warning: "cannot load stylesheet"
-  // TODO: Leaves an empty space for the ad because of hard-coded in-line styling "top: ##px"
 }

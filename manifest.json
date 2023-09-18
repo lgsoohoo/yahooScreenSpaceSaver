@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Yahoo Screen Space Saver",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "description": "Removes ads on Yahoo Mail and frees some space for smaller screens",
 
@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.mail.yahoo.com/*", "*://mail.yahoo.com/*"],
-      "js": ["hideItemsWithCss.js", "yahooScreenSpaceSaver.user.js", "main.js"]
+      "js": ["hideItemsWithCss.js", "adjustSidebar.js", "main.js"]
     }
   ],
 
