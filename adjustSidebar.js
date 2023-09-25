@@ -70,11 +70,15 @@ function adjustToolbarStylingForVertical(toolbar) {
   });
 
   // Remove the text that says "Settings". (Will appear if you're zoomed out)
-  let settingSection = toolbar.firstElementChild.nextElementSibling;
-  let textSpan =
-    settingSection.firstElementChild.firstElementChild.firstElementChild
-      .firstElementChild;
-  textSpan.parentElement.removeChild(textSpan);
+  toolbar.querySelector('[data-test-id="settings-link-label"]').remove();
+
+  // Add padding above settings section
+  let settingsSection = document.querySelector('[data-test-id="settings-gear"]')
+    .parentNode.parentNode.parentNode.parentNode;
+  settingsSection.style.padding = "16px";
+
+  // move 'settings' gear above the other controls, like Y!'s native layout
+  toolbar.insertBefore(settingsSection, toolbar.firstChild);
 }
 
 /**

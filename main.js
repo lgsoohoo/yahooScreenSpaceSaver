@@ -38,11 +38,9 @@ function runCodeForSidebar() {
     }
 
     if (!getYSSSNode("contactsCalendarSettingsToolbar")) {
-      console.log("assigning ids via mutation cheker!");
+      // console.log("Assigning IDs via mutation checker!");
       assignYSSSHtmlIds();
-    } else {
-      console.log("yss things exist.");
-    }
+    } 
 
     // Check if the Contacts/Calendar/Settings toolbar has been repositioned and move if need be.
     if (
