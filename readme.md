@@ -1,27 +1,16 @@
 # Yahoo Screen Space Saver
 
-Removes ads on Yahoo Mail and frees some space for smaller screens.
+_A Firefox plugin to optimize Yahoo Mail's layout for smaller screens!_
 
-Find 'Yahoo Screen Space Saver' on [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/yahoo-screen-space-saver/)!
+![A screenshot of Yahoo Mail, with the extension installed](./screenshots/yahoo-with-extension.png)
 
-## Description
+Available on the [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/yahoo-screen-space-saver/) page.
 
-This add-on hides some of the ads on Yahoo Mail, as well as hiding the gray banner at the top of the page, to make the site work better for smaller screens.
-
-Ads hidden:
-- Right Sidebar Ad
-- Top Banner Ad (when viewing an email)
-- Ads between emails* (when viewing inbox)
-
-\* Yahoo makes it difficult to remove the gap for the ad, but the ad text is not shown
-
-Space freed:
-- Top gray header hidden (Home/Mail/News/Finance)
-- Right toolbar hidden
+For ad blocking, I recommend using the [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) extension.
 
 ## Technical Details
 
-The add-on asks for permission to `Access your data for sites in the mail.yahoo.com domain` and `Access your data for mail.yahoo.com`, but this add-on does not read any of your emails - it only hides (does not display) the advertisements.
+The add-on asks for permission to `Access your data for sites in the mail.yahoo.com domain` and `Access your data for mail.yahoo.com`, but this add-on does not read any of your emails. The permission is required in order to run on yahoo.com.
 
 The source code for this add-on can be found on [GitHub](https://github.com/lgsoohoo/yahooScreenSpaceSaver).
 
